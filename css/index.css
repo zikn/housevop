@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 body {
   margin: 0;
   background: #242b33;
@@ -25,15 +26,35 @@ button {
 .header {
   font-family: "Raleway";
 }
-.header_content {
+.header__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header_content nav {
+.header__content nav {
   display: flex;
   gap: 40px;
 }
-.header_content nav a {
+.header__content nav a {
   color: #fff;
+}
+
+.hero h1 {
+  color: #D4C17F;
+  font-size: 48px;
+  font-family: "Playfair Display";
+}
+.hero__content {
+  text-align: center;
+}
+.hero__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.hero__bottom span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }/*# sourceMappingURL=index.css.map */

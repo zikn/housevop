@@ -1,0 +1,24 @@
+.hero {
+    h1 {
+        color: #D4C17F;
+        font-size: 48px;
+        font-family: "Playfair Display";
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}
