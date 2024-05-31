@@ -1,8 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 body {
+  margin: 0;
+  background: #242b33;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  font-family: "Raleway";
+}
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_content nav {
+  display: flex;
+  gap: 40px;
+}
+.header_content nav a {
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
